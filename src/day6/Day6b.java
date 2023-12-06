@@ -1,4 +1,4 @@
-package day4;
+package day6;
 
 import java.awt.*;
 import java.awt.datatransfer.Clipboard;
@@ -10,9 +10,9 @@ import java.nio.file.Path;
 
 import static java.lang.System.exit;
 
-public class Day4b {
+public class Day6b {
     public static void main(String[] args) {
-        String day = "4";
+        String day = "6";
         String input = readFile("inputs/input" + day + ".txt").trim();
 
         print(solve(input));
